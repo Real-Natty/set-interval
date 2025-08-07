@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  padding: 10px;
+  background: #000;
+  color: aliceblue;
+}
+.alphaContainer {
+  text-align: center;
+  font-size: 25rem;
+  font-weight: 900;
+  margin: auto;
+  text-transform: uppercase;
+  /* transition: all 0.5s linear; */
+  background: linear-gradient(to right, #ff0000, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.time-btn button {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.time-btn button:hover {
+  background-color: #fff;
+  color: #000;
+}
