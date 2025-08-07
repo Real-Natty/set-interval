@@ -22,14 +22,21 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.time-btn {
+  text-align: start;
+  padding: 1rem;
+}
 .time-btn button {
-  padding: 0.5rem 1rem;
+  padding: 1rem 3rem;
   margin-bottom: 1rem;
   border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(to right, #ff0000, #0000ff);
+  color: #fff;
   border: none;
   cursor: pointer;
 }
 .time-btn button:hover {
-  background-color: #fff;
-  color: #000;
+  color: #fff;
 }
