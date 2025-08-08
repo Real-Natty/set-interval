@@ -24,19 +24,15 @@ body {
 }
 .time-btn {
   text-align: start;
-  padding: 1rem;
+  padding: 10px;
 }
 .time-btn button {
-  padding: 1rem 3rem;
+  background: linear-gradient(to right, #ff0000, #0000ff);
+  color: aliceblue;
+  font-weight: 700;
+  padding: 1rem 3em;
   margin-bottom: 1rem;
   border-radius: 5px;
-  font-size: 20px;
-  font-weight: 700;
-  background: linear-gradient(to right, #ff0000, #0000ff);
-  color: #fff;
   border: none;
   cursor: pointer;
-}
-.time-btn button:hover {
-  color: #fff;
 }
